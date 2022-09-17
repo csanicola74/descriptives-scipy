@@ -1,8 +1,9 @@
+# Import packages
+import pandas
 import scipy
 from scipy import stats
 from pandas.plotting import scatter_matrix
 import numpy as np
-import pandas
 
 ###############################
 ##  Reading from a CSV file  ##
