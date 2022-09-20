@@ -58,9 +58,7 @@ groupby_gender.mean()   # this will now show the means for each column by gender
 
 # pandas comes with some plotting tools to display statistics of the data in dataframes:
 scatter_matrix(data[['Weight', 'Height', 'MRI_Count']])
-plt.show()
 scatter_matrix(data[['PIQ', 'VIQ', 'FSIQ']])
-plt.show()
 
 ################################################
 ##  Hypothesis Testing: Comparing two groups  ##
